@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background: #007398;
+  color: white;
+  padding: 0 30px;
+}
+
+.Instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .block {
+    background: white;
+    border-radius: 70px;
+    border: solid 4px rgb(19, 76, 182);
+    padding: 20px;
+    color: black;
+    margin: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+a.link {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid cornflowerblue;
+  padding: 5px 10px;
+  margin: 0 5px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+a.help {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+  font-weight: 500;
+}
+
+.active {
+  color: white;
+}
+
+.SingleStudentContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 20%;
+}
+
+.SingleStudentImg {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  margin-right: 2rem; /* Add some space between image and text */
+}
+
+.SingleStudentImg img {
+  height: auto;
+  border-radius: 50%;
+  border: solid 4px cornflowerblue;
+}
+
+.SingleStudentText {
+  text-align: center; /* Center-align text */
+  width: 100%; /* Occupy remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SingleStudentText h1,
+h2 {
+  margin: 0;
+  padding: 0.2rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #007398;
+}
+
+.SingleStudentText h1 {
+  font-size: 1.6rem;
+}
